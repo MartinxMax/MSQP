@@ -106,7 +106,7 @@ def check_mysql_permissions(host, port, user, password):
 if __name__ == "__main__":
     print(logo)
     if len(sys.argv) != 7:
-        print("Usage: python script.py <host> <port> <user> <password> <reverse_ip> <reverse_port>")
+        print("Usage: python msqp.py <host> <port> <user> <password> <reverse_ip> <reverse_port>")
         sys.exit(1)
 
     host = sys.argv[1]
